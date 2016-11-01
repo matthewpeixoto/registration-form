@@ -29,8 +29,16 @@ legend {
 
 @media only screen and (min-width: 60em) {
 
-  .field-inline {
+  .field-left {
     display: inline-block;
-    padding: .5rem;
-    width: 49%;
+    padding-right: .5rem;
+    width: 49.6%;
+  }
+
+  .field-right {
+    display: inline-block;
+    padding-left: .5rem;
+    width: 49.6%;
+  }
+
 }
