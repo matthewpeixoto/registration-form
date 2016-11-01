@@ -1,15 +1,15 @@
 html {
-  font-family: "Open Sans", sans-serif;
   background-color: #f2f2f2;
-}
 
-.form {
-  background-color: #fff;
-  height: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
   border-bottom: 1px solid #000;
+}
+
+.form {
+  background-color: #fff;
 }
 
 fieldset {
@@ -29,4 +29,8 @@ legend {
 
 @media only screen and (min-width: 60em) {
 
+  .field-inline {
+    display: inline-block;
+    padding: .5rem;
+    width: 49%;
 }

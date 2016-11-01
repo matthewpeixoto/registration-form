@@ -21,19 +21,19 @@
         <fieldset class="push-0">
           <legend class="push giga italic">Personal details</legend>
 
-          <div class="push">
+          <div class="field-inline push">
             <label for="name">Name</label>
             <input id="name" name="name">
           </div>
-          <div class="push">
+          <div class="field-inline push">
             <label for="age">Age</label>
-            <input type="number" id="age" name="age">
+            <input id="age" type="number" name="age">
           </div>
-          <div class="push">
+          <div class="field-inline push">
             <label for="email">Email</label>
             <input id="email" type="email" name="email">
           </div>
-          <div class="half push">
+          <div class="field-inline push">
             <label for="fitness">Physical fitness</label>
             <select id="fitness" name="fitness">
               <option>Super-human</option>
@@ -56,6 +56,8 @@
             <textarea id="why" name="message"></textarea>
           </div>
         </fieldset>
+
+        <input type="hidden" name="Request to join the mission">
 
         <div class="text-center">
           <button class="btn" type="submit">Register for the trip!</button>
